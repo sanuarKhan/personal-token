@@ -1,4 +1,5 @@
 let count = 0; //Initialize coint to 0
+const countDisplay = document.getElementById('countDisplay');
 
 function increaseCount() {
     count++; // Increment the count by 1
@@ -13,5 +14,9 @@ function checkCountValue(){
     }
 }
 function displayCount(){
-    document.getElementById('countDisplay').innerHTML = count; //Display the count in the HTML
+    countDisplay.innerHTML = count; //Display the count in the HTML
+}
+function resetCount(){
+    countDisplay.innerHTML = 0; //Display the count in the HTML as reset
+    alert('the Followers count has been reset')
 }
