@@ -52,3 +52,4 @@ clearCompletedBtn.addEventListener("click", clearCompletedTasks);
 clearAllTasksBtn.addEventListener("click", clearAllTasks);
 
 displayTasks();
+
